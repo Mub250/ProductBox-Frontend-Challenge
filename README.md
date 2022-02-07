@@ -94,4 +94,4 @@ Email me waleed@productbox.dev
 
 License
 -------
-I have licensed this project under the MIT license so that you may use this for a portfolio piece (or anything else!).
+I have licensed this project under the MIT license so that you may use this for a portfolio piece (or anything else!)
