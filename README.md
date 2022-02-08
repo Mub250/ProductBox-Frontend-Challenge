@@ -1,7 +1,7 @@
-Productbox Frontend Code Challenge
+Productbox Frontend Code Challenges
 ==================================
 
-Hello! Your task is to create RandoStore; an online store where anyone can put up any random item up for sale and anyone else can buy it.
+Hello how are you! Your task is to create RandoStore; an online store where anyone can put up any random item up for sale and anyone else can buy it.
 
 Overview
 --------
