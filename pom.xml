@@ -15,19 +15,15 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <url>http://maven.apache.org</url>  
   
   <dependencies>  
-    <dependency> 
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M3</version>
-            <configuration>
-                <suiteXmlFiles>
-                    <suiteXmlFile>pom.xml</suiteXmlFile>
-                </suiteXmlFiles>
-            </configuration>
-        </plugin>
-    </plugins>
+    <dependency>
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-surefire-plugin</artifactId>
+       <version>3.0.0-M3</version>
+       <configuration>
+            <suiteXmlFiles>
+            <suiteXmlFile>pom.xml</suiteXmlFile>
+            </suiteXmlFiles>
+       </configuration>
     </dependency>  
   </dependencies>  
   
