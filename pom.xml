@@ -19,11 +19,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
        <groupId>org.apache.maven.plugins</groupId>
        <artifactId>maven-surefire-plugin</artifactId>
        <version>3.0.0-M3</version>
-       
-            <suiteXmlFiles>
-            <suiteXmlFile>pom.xml</suiteXmlFile>
-            </suiteXmlFiles>
-     
+       <scope>test</scope>
     </dependency>  
   </dependencies>  
   
