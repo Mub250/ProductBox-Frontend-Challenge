@@ -15,8 +15,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <url>http://maven.apache.org</url>  
   
   <dependencies>  
-    <dependency>  
-      <build>
+    <dependency> 
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -29,7 +28,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             </configuration>
         </plugin>
     </plugins>
-</build> 
     </dependency>  
   </dependencies>  
   
