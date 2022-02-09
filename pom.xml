@@ -20,7 +20,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
        <artifactId>maven-surefire-plugin</artifactId>
        <version>3.0.0-M3</version>
        <scope>test</scope>
-      
+      </dependency>
+   <dependencies>  
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
   <artifactId>workflow-basic-steps</artifactId>
   <scope>test</scope>
