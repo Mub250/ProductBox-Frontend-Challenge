@@ -1,4 +1,4 @@
-var debug = require('debug')('frontend-code-challengejjjj');
+var debug = require('debug')('frontend-code-challenge1');
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
