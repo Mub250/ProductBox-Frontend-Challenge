@@ -1,9 +1,9 @@
 FROM node:10-alpine
-RUN mkdir -p /home/ubuntu/tazah-testing/node_modules && chown -R node:node /home/ubuntu/tazah-testing
-WORKDIR /home/ubuntu/tazah-testing
+RUN mkdir -p /home/test/node_modules && chown -R node:node /home/test
+WORKDIR /home/test
 COPY  package*.json ./
 USER node
 RUN npm install
 COPY --chown=node:node . .
-EXPOSE 4000
-CMD  ["node" , "server.js"]
+EXPOSE 3000
+CMD  ["node" , "index.js"]
