@@ -40,11 +40,11 @@ On server start, item data is read into memory from init_data.json. All subseque
 API Endpoints:
 ```
 /items/
-- HTTP GET: returns array of all items
-- HTTP POST: creates a new item, returns the created item data
+- HTTP GET (http://{{ipAddress}}/api/items): returns array of all items
+- HTTP POST (http://{ipAddress}/api/items): creates a new item, returns the created item data
 /items/:id
-- HTTP GET: returns the item with given id (numeric, auto-incrementing). HTTP 404 if item not found
-- HTTP DELETE: removes the items with given id, returns nothing (HTTP 204)
+- HTTP GET (http://{ipAddress}/api/items/:id): returns the item with given id (numeric, auto-incrementing). HTTP 404 if item not found
+- HTTP DELETE (http:///{ipAddress}/api/items/:id): removes the items with given id, returns nothing (HTTP 204)
 ```
 Here is an example of results returned from HTTP GET on /items:
 ```
